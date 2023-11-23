@@ -1,0 +1,52 @@
+
+#contactPage {
+    margin: 5% 3%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .fa-solid {
+    color: #316bf8;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+  }
+  
+  .stylizedSec {
+    width: 50vw;
+    margin-top: 2em;
+    padding: 3vh 3vw 0;
+    background-color: var(--primaryBackground);
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  Form {
+    width: 100%;
+  }
+  
+  #form-name {
+    margin-top: 20px;
+  }
+  
+  Form.Label {
+    font-size: 1.2em;
+  }
+  
+  Form.Control {
+    margin-bottom: 15px;
+  }
+  
+  Button {
+    background-color: #316bf8;
+    color: #fefefe;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  Button:hover {
+    background-color: #2142a5;
+  }

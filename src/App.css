@@ -1,0 +1,59 @@
+/* Universal styles */
+body {
+	margin: 0;
+	padding: 0;
+    min-height: 100vh;
+	font-family: "Abel", sans-serif;
+	background: linear-gradient(
+		to right,
+		var(--darkBeige) 40%,
+		var(--primaryBackground) 40%
+	);
+	font-size: 20px;
+}
+
+a {
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	flex-direction: row;
+}
+
+a:hover {
+  	color: var(--blue);
+}
+
+main {
+	padding-top: 2vh;
+	margin: 5% 3%;
+	justify-content: center;
+	align-items: center;
+	min-height: 55vh;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	background-color: var(--primaryBackground);
+}
+
+hr {
+	border: 1.5px solid var(--blue);
+	width: 30%;
+}
+
+/* Class styles */
+.stylizedSec {
+    width: 50vw;
+    margin: auto;
+    padding: 3vh 3vw 0;
+    background-color: var(--primaryBackground);
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fa-solid {
+    color: var(--blue);
+    font-size:medium;
+    padding: .5vw;
+}

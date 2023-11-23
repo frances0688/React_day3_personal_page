@@ -1,0 +1,11 @@
+.header {
+	background-color: var(--primaryBackground)
+}
+
+.ml-3 {
+    width: 12vw;
+}
+
+.menu-icon {
+	border: none;
+}
